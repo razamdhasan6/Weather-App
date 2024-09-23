@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <input type="text" placeholder="Enter your City name" aria-label="City Name Input">
+            <button>Search</button>
+        </header>
+        <section class="city-info">
+            <div class="upper-content">
+                <h3 class="city-name">Bahadurganj</h3>
+                <p class="date">Sunday 10 August 2024</p>
+                <p class="wind">Clear sky</p>
+            </div>
+            <div class="lower-content">
+                <img class="img" src="img.png" alt="Weather Icon">
+                <h1 class="temp">20°</h1>
+            </div>
+        </section>
+        <section class="additional-info">
+            <div id="wind" class="box">3.09 km/h<br>Wind</div>
+            <div id="humidity" class="box">56%<br>Humidity</div>
+            <div id="cloud" class="box">10 km<br>Visibility</div>
+        </section>
+        <div class="loading">Fetching data... Please wait.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
